@@ -1,0 +1,63 @@
+		p{
+			font-family: 'Quicksand', sans-serif !important;
+			margin: 0px !important;
+		}
+		a{
+			font-family: 'Cinzel', serif;
+			text-decoration: none;
+			color: black;
+		}
+		.footer-list,.inlie-list-item
+		{
+			display: inline;
+		}
+		ul{
+			padding: 0px;
+			margin: 0px;
+		}
+		a:hover{
+			text-decoration: none;
+			color: black;
+		}
+		.back-col{
+			    background-color: rgba(229, 255, 125, 0.14);
+		}
+		.back-cold{
+						background-color: rgba(229, 255, 125, 0.54);
+				}
+
+		.bg-success
+		{
+			background-color: #005f2c !important;
+		}
+		.img-thumbnail{
+			border: 0px !important;
+			padding: 0px;
+			    border-radius: 0em;
+		}
+		.display-4{
+			font-size: 27px;
+		}
+		.boright {
+		border-right: solid;
+		border-width: 5px;
+		color: black;
+	}
+	@media only screen and (max-width:660px){
+.display-3 {
+font-size:40px; !important;
+}
+}
+		.parallax2 {
+	/* The image used */
+	background-image: url("img/bg-pro.jpg")	;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}	
+		@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
